@@ -1,0 +1,8 @@
+CREATE TABLE user(
+    id INT UNSIGNED AUTO_INCREMENT NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    age TINYINT UNSIGNED NOT NULL,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO user(name, age) VALUES ('foo', 20), ('bar', 25);
